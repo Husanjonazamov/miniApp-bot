@@ -5,4 +5,4 @@ env.read_env()
 
 BOT_TOKEN = env('BOT_TOKEN')
 ADMIN = env('ADMIN')
-BASE_URL = env('BASE_URL')
+BASE_URL = env.str('BASE_URL')
